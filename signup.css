@@ -1,0 +1,49 @@
+body {background-color: #717A77;
+background-image: url("images/bg.jpg");
+		background-size: 1000px 1000px;}
+.signup {
+		top: 50%;
+		left: 50%;
+		position: absolute;
+		transform: translate(-50%,-50%);
+}
+.signup h3 {
+		text-align: center;
+		font-size: 40px;
+		font-family: sans-serif;
+		color: #D4F58C;
+}
+.signup h4 {
+		font-size: 20px;
+		text-align: center;
+		font-family: sans-serif;
+		color: #B9770E;
+		}
+.signup h5 {
+		font-size: 20px;
+		font-family: sans-serif;
+		color: white;
+}
+.signup input {
+		display: inline-block;
+		width: 300px;
+		height: 30px;
+		padding: 10px;
+		font-size: 15px;
+		font-family: sans-serif;
+		background-color: black;
+		border: 1px solid white;
+		color: white;
+
+}
+
+
+
+
+
+
+
+
+
+
+

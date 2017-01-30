@@ -1,0 +1,48 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.banner-img{
+    height: 90vh;
+}
+
+.content{
+    position: absolute;
+    top: 25vh;
+    width: 100%;
+    color: white;
+}
+
+.content input{
+    text-align: center;
+    height: 40px;
+    font-size: 25px;
+}
+
+.p-courses{
+    background-color: grey;
+    background-image: url("http://cdn0.wideopenspaces.com/wp-content/uploads/2014/12/bigstock-Himalaya-Mountains-Black-And-W-63496735.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.card{
+    background-color: white;
+    max-width: 300px;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    padding: 10px;
+    border-radius: 3px;
+    margin: 20px auto;
+}
+
+.card img{
+    border-radius: 3px;
+    max-width: 280px;
+}
+
+.col-centered {
+    align-items: center;
+}

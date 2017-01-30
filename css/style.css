@@ -1,0 +1,28 @@
+.head{
+	font-family:monospace;
+	font-size: 250px;
+	color: red;
+}
+
+.container {
+	width:1150px;
+	height: auto;
+}
+	
+#img1{
+	width: 150px;
+	height:100px;
+}
+
+.thumbnail{
+	height:350px;
+	width:250px;
+}
+.item{
+	display: flex;
+		-webkit-box-flex:auto;
+	  -ms-flex:auto;
+	  flex:auto;
+	  width:200px;
+	  margin:.5vw;
+}

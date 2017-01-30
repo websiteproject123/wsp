@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="">
+
+        <title>All in a Box</title>
+
+        <!-- linking the font -->
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
+
+        <!-- linking bootstrap -->
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+        <!-- custom CSS -->
+        <link rel="stylesheet" href="style.css">
+
+        <!-- linking jQuery -->
+        <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+
+        <!-- linking bootstrap -->
+        <!-- Latest compiled and minified JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    </head>
+
+    <body>
+
+        <!-- navbar -->
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container-fluid">
+
+                <!-- logo -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mainNavBar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a href="#" class="navbar-brand">All in a Box</a>
+                </div>
+
+                <!--Menu Items -->
+                <div class="collapse navbar-collapse" id="mainNavBar">
+                    <ul class="nav navbar-nav navbar-right">
+
+                        <!-- drop-down menu -->
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Courses <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="co.html">Computer Science</a></li>
+                                <li><a href="#">General</a></li>
+                            </ul>
+                        </li>
+
+                        <!-- normal menu items -->
+                        <li><a href="signup.html"><span class="glyphicon glyphicon-user"></span> Sign-up</a></li>
+                        <li><a href="login.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- header image -->
+        <div class="banner">
+            <img class="banner-img img-responsive" src="images/banner.jpg" alt="Header image">
+        </div>
+
+        <!-- header content -->
+        <div class="content row text-center">
+            <div class="col-md-3 col-sm-2 col-xs-1"></div>
+            <div class="col-md-6 col-sm-8 col-xs-10">
+                <h1>Welcome to All in a Box</h1>
+                <h2>What do you want to learn today?</h2>
+                <br>
+                <input type="text" class="form-control" id="search" autofocus>
+                <br>
+                <button type="button" class="btn btn-default">Search</button>
+            </div>
+            <div class="col-md-3 col-sm-2 col-xs-1"></div>
+        </div>
+
+        <!-- about us section -->
+        <div class="container text-center">
+            <br>
+            <h1>About Us</h1>
+            <h3>Your efforts to find a course is now much easier!</h3>
+            <br>
+            <p style="font-size: 20px;">We provide you with a list of courses from popular websites like Coursera, Edx, Udacity, Codecademy and others so that you don't have to worry about searching about courses you want to learn. Most of us want to learn something everyday, but finding the resource or course to learn it from is a bigger task, we simplify it for you with all the popular courses in one place. So, go ahead, search for your interests, happy learning!</p>
+            <br><br>
+        </div>
+
+        <!-- some popular courses section -->
+        <div class="p-courses container-fluid text-center">
+            <h1 style="color: white;">Some popular courses</h1>
+            <br>
+            <div class="row">
+                <div class="col-md-4 col-centered">
+                    <div class="card">
+                        <img src="images/box.png" alt="Course image" style="border: 1px solid #ccc;">
+                        <div class="card-content">
+                            <h3>Course name</h3>
+                            <h5 class="text-muted">Course website name</h5>
+                            <p>Brief description of the course, it's objectives and other such information</p>
+                            <a href="#" class="btn btn-default">Start learning!</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-centered">
+                    <div class="card">
+                        <img src="images/box.png" alt="Course image" style="border: 1px solid #ccc;">
+                        <div class="card-content">
+                            <h3>Course name</h3>
+                            <h5 class="text-muted">Course website name</h5>
+                            <p>Brief description of the course, it's objectives and other such information</p>
+                            <a href="#" class="btn btn-default">Start learning!</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-centered">
+                    <div class="card">
+                        <img src="images/box.png" alt="Course image" style="border: 1px solid #ccc;">
+                        <div class="card-content">
+                            <h3>Course name</h3>
+                            <h5 class="text-muted">Course website name</h5>
+                            <p>Brief description of the course, it's objectives and other such information</p>
+                            <a href="#" class="btn btn-default">Start learning!</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+        </div>
+        <br>
+
+        <!-- footer -->
+        <div class="container text-center">
+            <h3>Queries? Contact Us</h3>
+            <br>
+            <div class="row">
+                <div class="col-md-4"><h4>meghasanthosh438@gmail.com</h4></div>
+                <div class="col-md-4"><h4>s.spoorthi.97@gmail.com</h4></div>
+                <div class="col-md-4"><h4>sweta191995@gmail.com</h4></div>
+            </div>
+            <br>
+            <p>Made with <span style="font-size: 20px; color: #666;">♥</span> by @megha438 @spoorthishivaswamy @swetakumari95</p>
+        </div>
+    </body>
+</html>
