@@ -46,3 +46,18 @@ body{
 .col-centered {
     align-items: center;
 }
+
+.footer a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.footer .row a{
+    text-decoration: none;
+    color: inherit;
+    font-size: 18px;
+}
+
+.footer a:hover{
+    color: #337ab7;
+}
