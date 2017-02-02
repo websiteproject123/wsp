@@ -1,5 +1,6 @@
-body {background-color: #717A77;
-		background-image: url("images/bg.jpg");
+body {
+	
+		background-image: url("bg.jpg");
 		background-size: 1000px 1000px;
 		color: yellow;
 		}
