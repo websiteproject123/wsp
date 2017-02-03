@@ -24,80 +24,83 @@
         <!-- linking bootstrap -->
         <!-- Latest compiled and minified JavaScript -->
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-
+        <style>
+      .body{
+            background-color: lightblue;
+              }
+          
+        </style>
 
     </head>
   <body>
-
-    <nav class="navbar navbar-default">
+   
+    <nav class="navbar navbar-inverse navbar-fixed-top" >
         <div class="container-fluid">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="index.html">ALL IN A BOX</a>
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mainNavBar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+               <a class="navbar-brand" href="index.html">All in a box</a>
             </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav">
+                <ul class="nav navbar-nav navbar-right">
                    
                     <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Courses <span class="caret"></span></a>
                         <ul class="dropdown-menu">
-                            <li><a href="math.html">mathematics</a></li>
-                            <li><a href="#">general</a></li>
+                            <li><a href="math.html">Mathematics</a></li>
+                            <li><a href="#">General</a></li>
                             
                             
                         </ul>
                     </li>
                 </ul>
-                <form class="navbar-form navbar-left">
-                    <div class="form-group">
-                        <input type="text" class="form-control" placeholder="Search">
-                    </div>
-                    <button type="submit" class="btn btn-default">Submit</button>
-                </form>
-                 </div>
+               
+            </div>
         </div>
     </nav>
+  <br><br><br>
 
+  <h1 align="center">COURSES<h1>
 
-    <div class="container" align="center">
+    <div class="container">
         <div class="row">
-            <div class="col-md-4">
+        
+            <div class="item" >
                 <div class="thumbnail" >
                     <img src="images/java.png" id="img1" alt="java.png" align="center">
                     <div class="caption">
                         <h3 align="center">JAVA</h3>
-                        <p>Java is a general purpose, high-level programming language.</p>
-                        <p><a href="#" class="btn btn-primary" role="button">LEARN</a> 
+                        <p style="font-size: 15px">Java is a general purpose, high-level programming language.</p>
+                        <p><a href="#" class="btn btn-success btn-block btn-lg"  role="button">LEARN</a></p>
                     </div>
                 </div>
             </div>
+            
 
-
-            <div class="col-md-4">
+            <div class="item">
                 <div class="thumbnail">
                     <img src="images/images.png" id="img1" alt="images.png" align="center">
                     <div class="caption">
                         <h3 align="center">CSS</h3>
-                        <p>The Cascading Style Sheets Specification (CSS) is a computer language that is used to write formatting instructions </p>
-                        <p><a href="#" class="btn btn-primary" role="button">LEARN</a></div>
+                        <p style="font-size: 15px">The Cascading Style Sheets Specification (CSS) is a computer language that is used to write formatting instructions </p>
+                        <p><a href="#" class="btn btn-success btn-block btn-lg"  role="button">LEARN</a></p>
+                   </div>
                 </div>
             </div>
 
-            <div class="col-md-4">
+            <div class="item">
                 <div class="thumbnail">
                     <img src="images/images1.jpg" id="img1" alt="images1.jpg" align="center">
                     <div class="caption">
                         <h3 align="center"> HTML</h3>
-                        <p>HTML (Hypertext Markup Language) is the set of markup symbols or codes inserted in a file intended for display on a World Wide Web browser page. </p>
-                        <p><a href="#" class="btn btn-primary" role="button">LEARN</a> </p>
+                        <p style="font-size: 15px">HTML (Hypertext Markup Language) is the set of markup symbols or codes inserted in a file intended for display on a World Wide Web browser page. </p>
+                        <p><a href="#" class="btn btn-success btn-block btn-lg"  role="button">LEARN</a> </p>
                     </div>
                 </div>
             </div>
@@ -106,43 +109,37 @@
 
 
 
-
-
-
-
-
-
-        <div class="row">
-            <div class="col-md-4">
+       <div class="row">
+            <div class="item">
                 <div class="thumbnail" >
                     <img src="images/puthon.png" id="img1" alt="puthon.png" align="center">
                     <div class="caption">
                         <h3 align="center">PYTHON</h3>
-                        <p>Python is a general-purpose interpreted, interactive, object-oriented, and high-level programming language.</p>
-                        <p><a href="#" class="btn btn-primary" role="button">LEARN</a> </p>
+                        <p style="font-size: 15px">Python is a general-purpose interpreted, interactive, object-oriented, and high-level programming language.</p>
+                        <p><a href="#" class="btn btn-success btn-block btn-lg"  role="button">LEARN</a> </p>
                     </div>
                 </div>
             </div>
 
 
-            <div class="col-md-4">
+            <div class="item">
                 <div class="thumbnail">
                     <img src="images/comm.png" id="img1" alt="comm.png" align="center">
                     <div class="caption" >
                         <h3 align="center"> LEARN COMMAND LINE</h3>
-                        <p>an interface for typing commands directly to a computer's operating system.</p>
-                        <p><a href="#" class="btn btn-primary" role="button">LEARN</a> </p>
+                        <p style="font-size: 15px">an interface for typing commands directly to a computer's operating system.</p>
+                        <p><a href="#" class="btn btn-success btn-block btn-lg"  role="button">LEARN</a> </p>
                     </div>
                 </div>
             </div>
 
-            <div class="col-md-4">
+            <div class="item">
                 <div class="thumbnail">
                     <img src="images/ruby.png"  id="img1" alt="ruby.png" align="center">
                     <div class="caption">
                         <h3 align="center">RUBY</h3>
-                        <p>A dynamic, open source programming language with a focus on simplicity and productivity. </p>
-                        <p><a href="#" class="btn btn-primary" role="button">LEARN</a></p>
+                        <p style="font-size: 15px">A dynamic, open source programming language with a focus on simplicity and productivity. </p>
+                        <p><a href="#" class="btn btn-success btn-block btn-lg"  role="button">LEARN</a></p>
                     </div>
                 </div>
             </div>
@@ -154,36 +151,36 @@
 
 
         <div class="row">
-            <div class="col-md-4">
+            <div class="item">
                 <div class="thumbnail" >
                     <img src="images/sql.png" alt="sql.png" id="img1" align="center">
                     <div class="caption">
                         <h3 align="center">SQL</h3>
-                        <p>SQL (Structured Query Language) is a computer language aimed to store, manipulate, and query data stored in relational databases. </p>
-                        <p><a href="#" class="btn btn-primary" role="button">LEARN</a></p>
+                        <p style="font-size: 15px">SQL (Structured Query Language) is a computer language aimed to store, manipulate, and query data stored in relational databases. </p>
+                        <p><a href="#" class="btn btn-success btn-block btn-lg"  role="button">LEARN</a></p>
                     </div>
                 </div>
             </div>
 
 
-            <div class="col-md-4">
+            <div class="item">
                 <div class="thumbnail">
                     <img src="images/php.png" alt="php.png" id="img1" align="center">
                     <div class="caption" >
                         <h3 align="center">PHP</h3>
-                        <p>PHP is a widely-used open source general-purpose scripting language that is especially suited for web development and can be embedded into HTML.</p>
-                        <p><a href="#" class="btn btn-primary" role="button">LEARN</a></p>
+                        <p style="font-size: 15px">PHP is a widely-used open source general-purpose scripting language that is especially suited for web development and can be embedded into HTML.</p>
+                        <p><a href="#" class="btn btn-success btn-block btn-lg"  role="button">LEARN</a></p>
                     </div>
                 </div>
             </div>
 
-            <div class="col-md-4">
+            <div class="item">
                 <div class="thumbnail">
                     <img src="images/watson.png" id="img1" alt="watson.png" align="center">
                     <div class="caption">
                         <h3 align="center">WATSON API</h3>
-                        <p>Watson is a question answering computer system capable of answering questions posed in natural language.Will make use of python to proceed with the course.</p>
-                        <p><a href="#" class="btn btn-primary" role="button">LEARN</a></p>
+                        <p style="font-size: 15px">Watson is a question answering computer system capable of answering questions posed in natural language.Will make use of python to proceed with the course.</p>
+                        <p><a href="#" class="btn btn-success btn-block btn-lg"  role="button">LEARN</a></p>
                     </div>
                 </div>
             </div>
@@ -195,38 +192,38 @@
 
 
         <div class="row">
-            <div class="col-md-4">
+            <div class="item">
                 <div class="thumbnail" >
                     <img src=" images/sass.png" id="img1" alt="sass.png" align="center">
                     <div class="caption">
                         <h3 align="center">SASS</h3>
-                        <p>An extension of CSS that adds power and elegance to the basic language. It allows to use variables, nested rules, mixins, inline imports, and more.</p>
-                        <p><a href="#" class="btn btn-primary" role="button">LEARN</a></p>
+                        <p style="font-size: 15px">An extension of CSS that adds power and elegance to the basic language. It allows to use variables, nested rules, mixins, inline imports, and more.</p>
+                        <p><a href="#" class="btn btn-success btn-block btn-lg"  role="button">LEARN</a></p>
                     </div>
                 </div>
             </div>
 
 
-            <div class="col-md-4">
+            <div class="item">
                 <div class="thumbnail">
                     <img src="images/git.png" alt="git.png" id="img1" align="center">
                     <div class="caption" >
                         <h3 align="center">GIT</h3>
-                        <p>Git is a version control system (VCS) for tracking changes in computer files and coordinating work on those files among multiple people.</p>
-                        <p><a href="#" class="btn btn-primary" role="button">LEARN</a></p>
+                        <p style="font-size: 15px">Git is a version control system (VCS) for tracking changes in computer files and coordinating work on those files among multiple people.</p>
+                        <p><a href="#" class="btn btn-success btn-block btn-lg"  role="button">LEARN</a></p>
                     </div>
                 </div>
             </div>
 
 
 
-            <div class="col-md-4">
+            <div class="item">
                 <div class="thumbnail">
                     <img src="images/android.png" alt="android.png" id="img1" align="center">
                     <div class="caption">
                         <h3 align="center">ANDROID</h3>
-                        <p>learning the tools,principles, and best practices of mobiles.</p>
-                        <p align="center"><a href="#" class="btn btn-primary" role="button">LEARN</a></p>
+                        <p style="font-size: 15px">learning the tools,principles, and best practices of mobiles.</p>
+                        <p align="center"><a href="#" class="btn btn-success btn-block btn-lg"  role="button">LEARN</a></p>
                     </div>
                 </div>
             </div>
@@ -238,36 +235,37 @@
 
 
         <div class="row">
-            <div class="col-md-4">
+            <div class="item">
                 <div class="thumbnail" >
                     <img src="images/machine.png" id="img1" alt="images/machine.png" align="center">
                     <div class="caption">
                         <h3 align="center">MACHINE LEARNING</h3>
-                        <p>Machine learning is a type of artificial intelligence (AI) that provides computers with the ability to learn without being explicitly programmed.</p>
-                        <p><a href="#" class="btn btn-primary" role="button">LEARN</a></p>
+                        <p style="font-size: 15px">Machine learning is a type of artificial intelligence (AI) that provides computers with the ability to learn without being explicitly programmed.</p>
+                        <p><a href="#" class="btn btn-success btn-block btn-lg"  role="button">LEARN</a></p>
                     </div>
                 </div>
             </div>
 
 
-            <div class="col-md-4">
+            <div class="item">
                 <div class="thumbnail">
                     <img src="images/c.png" id="img1" alt="images/c.png" align="center">
                     <div class="caption" >
                         <h3 align="center">C PROGRAMMING</h3>
-                        <p>C is a general-purpose, procedural, imperative computer programming language.</p>
-                        <p><a href="#" class="btn btn-primary" role="button">LEARN</a></p>
+                        <p style="font-size: 15px">C is a general-purpose, procedural, imperative computer programming language.</p>
+                        <p><a href="#" class="btn btn-success btn-block btn-lg"  role="button">LEARN</a></p>
                     </div>
                 </div>
             </div>
 
-            <div class="col-md-4">
-                <div class="thumbnail">
+            <div class="item">
+
+                  <div class="thumbnail">
                     <img src="images/c++.png"  id="img1" alt="images/c++.png" align="center">
                     <div class="caption">
                         <h3 align="center">C++</h3>
-                        <p>C++ is an object oriented programming (OOP) language, developed by Bjarne Stroustrup, and is an extension of C language. </p>
-                        <p><a href="#" class="btn btn-primary" role="button">LEARN</a></p>
+                        <p style="font-size: 15px">C++ is an object oriented programming (OOP) language, developed by Bjarne Stroustrup, and is an extension of C language. </p>
+                        <p><a href="#" class="btn btn-success btn-block btn-lg"  role="button">LEARN</a></p>
                     </div>
                 </div>
             </div>
@@ -279,36 +277,36 @@
 
 
         <div class="row">
-            <div class="col-md-4">
+            <div class="item">
                 <div class="thumbnail" >
                     <img src="images/ios.png" id="img1" alt="images/ios.png" align="center">
                     <div class="caption">
                         <h3 align="center">iOS</h3>
-                        <p>iOS is a mobile operating system created and developed by Apple Inc. exclusively for its hardware. It is the operating system that presently powers many of the apple devices. </p>
-                        <p><a href="#" class="btn btn-primary" role="button">LEARN</a></p>
+                        <p style="font-size: 15px">iOS is a mobile operating system created and developed by Apple Inc. exclusively for its hardware. It is the operating system that presently powers many of the apple devices. </p>
+                        <p><a href="#" class="btn btn-success btn-block btn-lg"  role="button">LEARN</a></p>
                     </div>
                 </div>
             </div>
 
 
-            <div class="col-md-4">
+            <div class="item">
                 <div class="thumbnail">
                     <img src="images/unix.png" id="img1" alt="images/unix.png" align="center">
                     <div class="caption" >
                         <h3 align="center">UNIX</h3>
-                        <p> UNIX is a popular multi-user, multitasking operating system (OS) developed at Bell Labs</p>
-                        <p><a href="#" class="btn btn-primary" role="button">LEARN</a></p>
+                        <p style="font-size: 15px"> UNIX is a popular multi-user, multitasking operating system (OS) developed at Bell Labs</p>
+                        <p><a href="#" class="btn btn-success btn-block btn-lg"  role="button">LEARN</a></p>
                     </div>
                 </div>
             </div>
 
-            <div class="col-md-4">
+            <div class="item">
                 <div class="thumbnail">
                     <img src="images/c#.png"  id="img1" alt="images/c#.png" align="center">
                     <div class="caption">
                         <h3 align="center">C#</h3>
-                        <p>C# is a simple, modern, general-purpose, object-oriented programming language developed by Microsoft within its .NET initiative.</p>
-                        <p><a href="#" class="btn btn-primary" role="button">LEARN</a></p>
+                        <p style="font-size: 15px">C# is a simple, modern, general-purpose, object-oriented programming language developed by Microsoft within its .NET initiative.</p>
+                        <p><a href="#" class="btn btn-success btn-block btn-lg"  role="button">LEARN</a></p>
                     </div>
                 </div>
             </div>
@@ -319,36 +317,36 @@
 
 
         <div class="row">
-            <div class="col-md-4">
+            <div class="item">
                 <div class="thumbnail" >
                     <img src="images/cobol.png" id="img1" alt="images/cobol.png" align="center">
                     <div class="caption">
                         <h3 align="center">COBOL</h3>
-                        <p>COBOL is a compiled English-like computer programming language designed for business use.</p>
-                        <p><a href="#" class="btn btn-primary" role="button">LEARN</a></p>
+                        <p style="font-size: 15px">COBOL is a compiled English-like computer programming language designed for business use.</p>
+                        <p><a href="#" class="btn btn-success btn-block btn-lg"  role="button">LEARN</a></p>
                     </div>
                 </div>
             </div>
 
 
-            <div class="col-md-4">
+            <div class="item">
                 <div class="thumbnail">
                     <img src="images/jcl.png" id="img1" alt="images/jcl.png" align="center">
                     <div class="caption" >
                         <h3 align="center">JCL</h3>
-                        <p>Job Control Language is a name for scripting languages used on IBM mainframe operating systems to instruct the system on how to run a batch job or start a subsystem.</p>
-                        <p><a href="#" class="btn btn-primary" role="button">LEARN</a></p>
+                        <p style="font-size: 15px">Job Control Language is a name for scripting languages used on IBM mainframe operating systems to instruct the system on how to run a batch job or start a subsystem.</p>
+                        <p><a href="#" class="btn btn-success btn-block btn-lg"  role="button">LEARN</a></p>
                     </div>
                 </div>
             </div>
 
-            <div class="col-md-4">
+            <div class="item">
                 <div class="thumbnail">
                     <img src="images/excel.png"  id="img1" alt="images/excel.png" align="center">
                     <div class="caption">
                         <h3 align="center">EXCEL</h3>
-                        <p>A spreadsheet program included in the Microsoft Office suite of applications. Spreadsheets present tables of values arranged in rows and columns that can be manipulated mathematically.</p>
-                        <p><a href="#" class="btn btn-primary" role="button">LEARN</a></p>
+                        <p style="font-size: 15px">A spreadsheet program included in the Microsoft Office suite of applications. Spreadsheets present tables of values arranged in rows and columns that can be manipulated mathematically.</p>
+                        <p><a href="#" class="btn btn-success btn-block btn-lg"  role="button">LEARN</a></p>
                     </div>
                 </div>
             </div>
@@ -364,37 +362,37 @@
 
 
         <div class="row">
-            <div class="col-md-4">
+            <div class="item">
                 <div class="thumbnail" >
                     <img src="images/assembly.png" id="img1" alt="images/assembly.png" align="center">
                     <div class="caption">
                         <h3 align="center">ASSEMBLY LANGUAGE</h3>
-                        <p>Asm is a low-level programming language for a computer,in which there is a correspondence between the language and the architecture's machine code instructions.</p>
-                        <p><a href="#" class="btn btn-primary" role="button">LEARN</a></p>
+                        <p style="font-size: 15px">Asm is a low-level programming language for a computer,in which there is a correspondence between the language and the architecture's machine code instructions.</p>
+                        <p><a href="#" class="btn btn-success btn-block btn-lg"  role="button">LEARN</a></p>
                     </div>
                 </div>
             </div>
 
 
-            <div class="col-md-4">
+            <div class="item">
                 <div class="thumbnail">
                     <img src="images/mat.jpg" id="img1" alt="images/mat.jpg" align="center">
                     <div class="caption">
                         <h3 align="center">MATLAB PROGRAMMING</h3>
-                        <p>MATLAB (matrix laboratory) is a multi-paradigm numerical computing environment and fourth-generation programming language.</p>
-                        <p><a href="#" class="btn btn-primary" role="button">LEARN</a></p>
+                        <p style="font-size: 15px">MATLAB (matrix laboratory) is a multi-paradigm numerical computing environment and fourth-generation programming language.</p>
+                        <p><a href="#" class="btn btn-success btn-block btn-lg"  role="button">LEARN</a></p>
                     </div>
                 </div>
             </div>
 
-            <div class="col-md-4">
+            <div class="item">
                 <div class="thumbnail">
                     <img src="images/django.png" id="img1" alt="images/django.png" align="center">
                     <div class="caption">
                         <h3 align="center">DJANGO</h3>
-                        <p>A complete high-level web framework that encourages rapid development and clean, pragmatic design.</p>
+                        <p style="font-size: 15px">A complete high-level web framework that encourages rapid development and clean, pragmatic design.</p>
 
-                        <p><a href="#" class="btn btn-primary" role="button">LEARN</a></p>
+                        <p><a href="#" class="btn btn-success btn-block btn-lg" role="button">LEARN</a></p>
                     </div>
                 </div>
             </div>
@@ -409,36 +407,36 @@
 
 
         <div class="row">
-            <div class="col-md-4">
+            <div class="item">
                 <div class="thumbnail" >
                     <img src="images/xml.png" id="img1" alt="images/xml.png" align="center">
                     <div class="caption">
                         <h3 align="center">XML</h3>
-                        <p>a metalanguage which allows users to define their own customized markup languages, especially in order to display documents on the Internet.</p>
-                        <p><a href="#" class="btn btn-primary" role="button">LEARN</a></p>
+                        <p style="font-size: 15px">a metalanguage which allows users to define their own customized markup languages, especially in order to display documents on the Internet.</p>
+                        <p><a href="#" class="btn btn-success btn-block btn-lg"  role="button">LEARN</a></p>
                     </div>
                 </div>
             </div>
 
 
-            <div class="col-md-4">
+            <div class="item">
                 <div class="thumbnail">
                     <img src="images/vb.png" id="img1" alt="images/vb.png" align="center">
                     <div class="caption">
                         <h3 align="center">VISUAL BASIC</h3>
-                        <p>Visual Basic is a third-generation event-driven programming language and integrated development environment (IDE) from Microsoft for its Component Object Model (COM)</p>
-                        <p><a href="#" class="btn btn-primary" role="button">LEARN</a></p>
+                        <p style="font-size: 15px">Visual Basic is a third-generation event-driven programming language and integrated development environment (IDE) from Microsoft for its Component Object Model (COM)</p>
+                        <p><a href="#" class="btn btn-success btn-block btn-lg"  role="button">LEARN</a></p>
                     </div>
                 </div>
             </div>
 
-            <div class="col-md-4">
+            <div class="item">
                 <div class="thumbnail">
                     <img src="images/boot.png" id="img1" alt="images/boot.png" align="center">
                     <div class="caption">
                         <h3 align="center">BOOTSTRAP</h3>
-                        <p>Bootstrap is the most popular HTML, CSS, and JS framework for developing responsive, mobile first projects on the web.</p>
-                        <p><a href="#" class="btn btn-primary" role="button">LEARN</a></p>
+                        <p style="font-size: 15px">Bootstrap is the most popular HTML, CSS, and JS framework for developing responsive, mobile first projects on the web.</p>
+                        <p><a href="#" class="btn btn-success btn-block btn-lg"  role="button">LEARN</a></p>
                     </div>
                 </div>
             </div>
@@ -451,40 +449,52 @@
 
 
         <div class="row">
-            <div class="col-md-4">
+            <div class="item">
                 <div class="thumbnail" >
                     <img src="images/xaml.png" id="img1" alt="images/xaml.png" align="center">
                     <div class="caption">
                         <h3 align="center">XML</h3>
-                        <p>XAML is an XML-based markup language developed by Microsoft. XAML is the language behind the visual presentation of an application that you develop .</p>
-                        <p><a href="#" class="btn btn-primary" role="button">LEARN</a> </p>
+                        <p style="font-size: 15px">XAML is an XML-based markup language developed by Microsoft. XAML is the language behind the visual presentation of an application that you develop .</p>
+                        <p><a href="#" class="btn btn-success btn-block btn-lg"  role="button">LEARN</a> </p>
                     </div>
                 </div>
             </div>
 
 
-            <div class="col-md-4">
+            <div class="item">
                 <div class="thumbnail">
                     <img src="images/ps.png" id="img1" alt="images/ps.png" align="center">
                     <div class="caption">
                         <h3 align="center">PHOTOSHOP CS6</h3>
-                        <p>Photoshop is Adobe's photo editing, image creation and graphic design software. </p>
-                        <p><a href="#" class="btn btn-primary" role="button">LEARN</a></p>
+                        <p style="font-size: 15px">Photoshop is Adobe's photo editing, image creation and graphic design software. </p>
+                        <p><a href="#" class="btn btn-success btn-block btn-lg"  role="button">LEARN</a></p>
                     </div>
                 </div>
             </div>
 
-            <div class="col-md-4">
+            <div class="item">
                 <div class="thumbnail">
                     <img src="images/af.png" id="img1" alt="images/af.png" align="center">
                     <div class="caption">
                         <h3 align="center">ADOBE FLASH CS6</h3>
-                        <p>Adobe Animate is a multimedia software platform for production of animations, browser games, rich Internet applications, desktop applications, mobile applications and mobile games.</p>
-                        <p><a href="#" class="btn btn-primary" role="button">LEARN</a></p>
+                        <p style="font-size: 15px">Adobe Animate is a multimedia software platform for production of animations, browser games, rich Internet applications, desktop applications, mobile applications and mobile games.</p>
+                        <p><a href="#" class="btn btn-success btn-block btn-lg"  role="button">LEARN</a></p>
                     </div>
                 </div>
             </div>
 
+        </div>
+        </div>
+        <div class="footer container text-center">
+            <h3>Queries? Contact Us</h3>
+             <br>
+            <div class="row">
+                <div class="col-md-4"><a href="mailto:meghasanthosh438@gmail.com">meghasanthosh438@gmail.com</a></div>
+                <div class="col-md-4"><a href="mailto:s.spoorthi.97@gmail.com">s.spoorthi.97@gmail.com</a></div>
+                <div class="col-md-4"><a href="mailto:sweta191995@gmail.com">sweta191995@gmail.com</a></div>
+            </div>
+            <br>
+            <p>Made with <span style="font-size:10px; color: #666;">♥</span> by <a href="https://github.com/megha438">@megha438</a> <a href="https://github.com/spoorthishivaswamy">@spoorthishivaswamy</a> <a href="https://github.com/swetakumari95">@swetakumari95</a></p>
         </div>
 
 
